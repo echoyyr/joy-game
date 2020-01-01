@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Joy in Tokyo",
+    "description": "The endless arcade hopper you'll never want to put down",
+    "slug": "crossy-road",
+    "privacy": "public",
+    "orientation": "portrait",
+    "primaryColor": "#69CEED",
+    "icon": "./assets/icons/app.png",
+    "platforms": ["android", "ios", "web"],
+    "splash": {
+      "image": "./assets/icons/loading.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#69CEED"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4", "mp3", "obj", "wav", "mtl"]
+    },
+    "ios": {
+      "icon": "./assets/icons/app.png",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hipsterwhale.crossy",
+      "buildNumber": "0.0.0",
+      "appStoreUrl": "https://itunes.apple.com/us/app/crossy-road/id924373886?mt=8"
+    },
+    "android": {
+      "icon": "./assets/icons/app.png",
+      "package": "com.yodo1.crossyroad",
+      "versionCode": 1
+    },
+    "web": {
+      "shortName": "Crossy"
+    }
+  }
+}
